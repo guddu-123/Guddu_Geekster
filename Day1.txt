@@ -1,0 +1,86 @@
+Q1.
+public class Main
+{
+	public static void main(String[] args) {
+		System.out.println("Hello I am enjoiying coding");
+	}
+}
+
+Q2.
+  
+public class Main
+{
+	public static void main(String[] args) {
+		System.out.println("Hello");
+		System.out.println("I");
+		System.out.println("am");
+		System.out.println("enjoiying");
+		System.out.println("coding");
+	}
+}
+
+Q3. 
+public class Main
+{
+	public static void main(String[] args) {
+		System.out.println("Sum = "+(100+8+3));
+		System.out.println("Product = "+(100*8*3));
+	}
+}
+
+Q4. 
+public class Main
+{
+	public static void main(String[] args) {
+		System.out.println(100-40);
+	}
+}
+
+Q5.
+public class Main
+{
+	public static void main(String[] args) {
+		System.out.println("*****");
+		System.out.println("*****");
+		System.out.println("*****");
+		System.out.println("*****");
+		System.out.println("*****");
+		System.out.println("*****");
+	}
+}
+
+Q6.
+public class Main
+{
+	public static void main(String[] args) {
+		System.out.println("* *");
+		System.out.println("* *");
+		System.out.println("* *");
+		System.out.println("* *");
+		System.out.println("* *");
+		System.out.println("****");
+	}
+}
+
+Q7.
+public class Main
+{
+	public static void main(String[] args) {
+		System.out.println(987653%10);
+	
+	}
+}
+
+Q8.
+public class Main
+{
+	public static void main(String[] args) {
+	    int m = 15;
+	    int n = 4;
+	    System.out.println(m+n);
+	    System.out.print((m-n)+" ");
+	    System.out.println(m*n);
+		
+	
+	}
+}

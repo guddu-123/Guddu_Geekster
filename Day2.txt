@@ -1,0 +1,165 @@
+Q1.
+import java.util.Scanner;
+public class Main {
+   public static void main(String args[]){
+      Scanner in = new Scanner(System.in);
+      int d = in.nextInt();
+      double area = (d/2*d/2)*Math.PI;
+      System.out.println("Area of the circle is ::"+area);
+   }
+}
+Q2.
+import java.util.*;
+public class Main
+{
+	public static void main(String[] args) {
+	    Scanner in = new Scanner(System.in);
+	    double x = in.nextDouble();
+	    double y = in.nextDouble();
+	    double a = (double)1/2*(x*y);
+	    System.out.println(a);
+	
+	}
+}
+
+Q3.
+import java.util.*;
+public class Main
+{
+	public static void main(String[] args) {
+	    Scanner in = new Scanner(System.in);
+	    int x = in.nextInt();
+	    if(x>1000){
+	        System.out.println(true);
+	    }else{
+	        System.out.println(false);
+	    }
+	
+	}
+}
+Q4. 
+Quiz
+
+Q5.
+public class Main
+{
+  public static void main (String[]args)
+  {
+    int x = 7 + 3 + 4;//14
+    int y = 12 + 5 + 8;//25
+    int z = 13 / 5 + 18 / 8;//4
+    double i = 12 + 5.0 + 2.76;//19.75999
+    double j = 12 / 3 + 13 / 2;//10.0
+    double k = 12 / 3 + 13.0 / 2;//10.5
+    double l = 14 / 2 + 15.0 / 4;//10.75
+    double m = 13 / 2 % 5 / 3;//0.0
+    double n = 17.0 / 2 % 16.0 / 4;//2.125
+    System.out.println (x);
+    System.out.println (y);
+    System.out.println (z);
+    System.out.println (i);
+    System.out.println (j);
+    System.out.println (k);
+    System.out.println(l);
+    System.out.println(m);
+    System.out.println(n);
+
+
+
+  }
+}
+
+Q6.
+public class Main
+{
+  public static void main (String[]args)
+  {
+    boolean x = 3 > 2;//true
+    boolean y = 3 >= 3;//true
+    boolean z = 4 + 3 > 9;//false
+    boolean i = 10 + 8 > 10;//true
+    boolean j = 12 != 10;//true
+    boolean k = 13 == 13;//true
+    boolean l = 14 != 14;//false
+    boolean m = 20 == 5*4;//true
+    boolean n = 30 != 3+4-10;//true
+    boolean o = 20 == 41/2;//true
+    System.out.println (x);
+    System.out.println (y);
+    System.out.println (z);
+    System.out.println (i);
+    System.out.println (j);
+    System.out.println (k);
+    System.out.println(l);
+    System.out.println(m);
+    System.out.println(n);
+    System.out.println(o);
+
+
+
+  }
+}
+
+Q7.
+
+import java.util.*;
+public class Main
+{
+  public static void main (String[]args)
+  {
+    Scanner in = new Scanner(System.in);
+    double math = in.nextDouble();
+    double eng = in.nextDouble();
+    double phy = in.nextDouble();
+    double bio = in.nextDouble();
+    double che = in.nextDouble();
+    double total_marks = math+eng+phy+bio+che;
+    double per = (total_marks/500)*100;
+    System.out.println(total_marks);
+    System.out.println(per);
+    
+  }
+}
+
+Q8.
+
+import java.util.*;
+public class Main
+{
+  public static void main (String[]args)
+  {
+    Scanner in = new Scanner(System.in);
+    int l = in.nextInt();
+    int m = in.nextInt();
+    int n = in.nextInt();
+    int o = in.nextInt();
+    int product = l*m*n*o;
+    if(product>1000){
+        System.out.println(true);
+    }else{
+        System.out.println(false);
+    }
+    
+  }
+}
+
+Q9.
+
+import java.util.*;
+public class Main
+{
+  public static void main (String[]args)
+  {
+    Scanner in = new Scanner(System.in);
+    int num = in.nextInt();
+    if(num%7==0){
+        System.out.println("Yes");
+    }else{
+        System.out.println("No");
+    }
+    
+  }
+}
+
+Q10.
+Quiz
